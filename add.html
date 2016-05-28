@@ -1,5 +1,8 @@
-<div><h2> Add </h2></div>
-<section>
+<section ng-hide="isLoggedIn()">
+    <div><span> Not Logged In </span></div>
+</section>
+<section ng-show="isLoggedIn()">
+    <div><h2> Add </h2></div>
     <div><input type="date" placeholder="dd-MM-yyyy" ng-model="newTransaction.date"/></div>
     <div><input placeholder="title" ng-model="newTransaction.title"/></div>
     <div><input type="number" ng-model="newTransaction.price" min="0" placeholder="price" required/></div>

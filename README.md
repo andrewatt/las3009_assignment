@@ -12,6 +12,8 @@ npm install grunt-contrib-watch
 
 npm install grunt-contrib-connect
 
+npm install --save json-server
+
 bower install angular
 
 bower install angular-chart.js --save

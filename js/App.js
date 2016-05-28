@@ -1,10 +1,12 @@
 (function () {
-    var app = angular.module('Tracker', ['ngRoute', 'chart.js']); // 'chart.js'
-
+    var app = angular.module('Tracker', ['ngRoute', 'chart.js', 'json-server-auth', 'json-server-users']);
     app.config(function ($routeProvider) {
         $routeProvider.when('/', {
             templateUrl: 'home.html',
             controller: 'HomeController'
+        }).when('/login', {
+            templateUrl: 'login.html',
+            controller: 'LoginController'
         }).when('/income', {
             templateUrl: 'income.html',
             controller: 'IncomeController'

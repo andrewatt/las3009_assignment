@@ -16,9 +16,9 @@
     },
     {
       "id": 3,
-      "date": "2016-08-07",
+      "date": "2016-08-07T00:00:00.000Z",
       "title": "groceries",
-      "price": 10.3,
+      "price": 10.5,
       "type": "expense"
     },
     {
@@ -46,14 +46,21 @@
       "id": 7,
       "date": "2015-01-29T00:00:00.000Z",
       "title": "overtime",
-      "price": 102,
+      "price": 102.3,
+      "type": "income"
+    },
+    {
+      "id": 8,
+      "date": "2016-02-24T22:00:00.000Z",
+      "title": "pay feb",
+      "price": 2000,
       "type": "income"
     }
   ],
   "users": [
     {
-      "username": "andrew",
-      "password": "username"
+      "username": "aaa",
+      "password": "aaa"
     }
   ]
 }
