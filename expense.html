@@ -9,13 +9,11 @@
             <th>Date</th>
             <th>Title</th>
             <th>Price</th>
-            <th>Type</th>
         </tr>
         <tr ng-repeat="transaction in transactions | orderBy:'-price' | filter:search track by $index">
-            <td>{{transaction.date | date:'MM/dd/yyyy'}}</td>
+            <td>{{transaction.date | date:'dd/MM/yyyy'}}</td>
             <td>{{transaction.title}}</td>
             <td>&euro;{{transaction.price}}</td>
-            <td>{{transaction.type}}</td>
             <td>
                 <button class="bt bt-achieve" ng-click="deleteTransaction(transaction)">Delete</button>
             </td>

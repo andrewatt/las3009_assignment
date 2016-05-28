@@ -1,31 +1,24 @@
 {
   "transactions": [
     {
-      "id": 1,
-      "date": "2016-02-05",
-      "title": "shopping",
-      "price": 20.1,
-      "type": "expense"
-    },
-    {
       "id": 2,
       "date": "2016-01-04T00:00:00.000Z",
-      "title": "maintenance",
+      "title": "home maintenance",
       "price": 30.3,
       "type": "expense"
     },
     {
       "id": 3,
-      "date": "2016-08-07T00:00:00.000Z",
+      "date": "2016-01-07T01:00:00.000Z",
       "title": "groceries",
       "price": 10.5,
       "type": "expense"
     },
     {
       "id": 4,
-      "date": "2016-05-06",
+      "date": "2016-02-06T01:00:00.000Z",
       "title": "laptop",
-      "price": 400.5,
+      "price": 700.5,
       "type": "expense"
     },
     {
@@ -38,7 +31,7 @@
     {
       "id": 6,
       "date": "2015-01-29T00:00:00.000Z",
-      "title": "pay",
+      "title": "payment Jan",
       "price": 5021,
       "type": "income"
     },
@@ -52,8 +45,8 @@
     {
       "id": 8,
       "date": "2016-02-24T22:00:00.000Z",
-      "title": "pay feb",
-      "price": 2000,
+      "title": "payment Feb",
+      "price": 5000,
       "type": "income"
     }
   ],
