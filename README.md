@@ -6,21 +6,9 @@ git clone https://github.com/andrewatt/las3009_assignment.git
 
 cd ...\las3009_assignment
 
-npm install grunt
+npm install
 
-npm install grunt-contrib-watch
-
-npm install grunt-contrib-connect
-
-npm install --save json-server
-
-bower install angular
-
-bower install angular-chart.js --save
-
-bower install --save angular-cookies
-
-bower install angular-route
+bower install
 
 3. run
 

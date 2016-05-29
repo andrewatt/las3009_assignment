@@ -16,7 +16,7 @@
             }
 
             $scope.getCurrentUser = function () {
-                if (this.isLoggedIn()) {
+                if (this.isLoggedIn) {
                     return AuthenticationService.getCurrentUser().username;
                 }
                 return "";

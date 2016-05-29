@@ -1,11 +1,11 @@
-<section ng-hide="isLoggedIn()">
+<section ng-hide="isLoggedIn">
     username<br>
     <input type="text" ng-model="username"> <br>
     password <br>
     <input type="text" ng-model="password"> <br>
     <button ng-click="Login(username, password)">Login</button>
 </section>
-<section ng-show="isLoggedIn()">
+<section ng-show="isLoggedIn">
     user: {{getCurrentUser()}}<br>
     <button ng-click="Logout()">Logout</button>
 </section>
