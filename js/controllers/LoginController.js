@@ -6,9 +6,7 @@
         [
             "AuthenticationService", "$scope", function (AuthenticationService, $scope) {
 
-            $scope.isLoggedIn = function () {
-                return AuthenticationService.isLoggedIn();
-            }
+            $scope.isLoggedIn = AuthenticationService.isLoggedIn();
 
             $scope.Login = function (username, password) {
                 console.log("Login " + username + " " + password);

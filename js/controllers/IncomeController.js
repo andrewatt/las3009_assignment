@@ -3,8 +3,8 @@
     var app = angular.module('Tracker');
 
     app.controller("IncomeController", [
-        "AuthenticationService", "TransactionService", "$scope", "$window",
-        function (AuthenticationService, TransactionService, $scope, $window) {
+        "AuthenticationService", "TransactionService", "$scope", "$location",
+        function (AuthenticationService, TransactionService, $scope, $location) {
 
             $scope.transactions = [];
 
@@ -20,8 +20,7 @@
             };
 
             $scope.editTransaction = function (transaction) {
-                transaction.date = new Date(transaction.date);
-                $window.location.href = 'http://localhost:1234/#/edit/' + JSON.stringify(transaction);
+                $location.path('/edit/' + JSON.stringify(transaction));
             };
 
             $scope.$watchCollection(function () {
@@ -30,8 +29,6 @@
                 $scope.transactions = newValue;
             });
 
-            $scope.isLoggedIn = function () {
-                return AuthenticationService.isLoggedIn();
-            }
+            $scope.isLoggedIn = AuthenticationService.isLoggedIn();
         }]);
 })();

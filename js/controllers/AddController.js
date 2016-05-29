@@ -2,8 +2,6 @@
 
     var app = angular.module('Tracker');
 
-    // app.controller("AddController", ["TransactionService", "$scope", "AuthenticationService", function (TransactionService, $scope, AuthenticationService) {
-    // angular.js:13550 Error: [$injector:unpr] Unknown provider: AuthenticationServiceProvider <- AuthenticationService <- AddController
     app.controller("AddController", [
         "AuthenticationService", "TransactionService", "$scope",
         function (AuthenticationService, TransactionService, $scope) {
@@ -11,7 +9,7 @@
             $scope.addTransaction = function () {
                 var transaction = {
                     'id': TransactionService.getIncome().length + 1,
-                    'date': new Date($scope.newTransaction.date),
+                    'date': $scope.newTransaction.date,
                     'title': $scope.newTransaction.title,
                     'price': $scope.newTransaction.price,
                     'type': $scope.newTransaction.type
@@ -21,9 +19,7 @@
                 $scope.newTransaction = {};
             };
 
-            $scope.isLoggedIn = function () {
-                return AuthenticationService.isLoggedIn();
-            }
+            $scope.isLoggedIn = AuthenticationService.isLoggedIn();
 
         }]);
 })();

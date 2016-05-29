@@ -4,7 +4,7 @@
       "id": 2,
       "date": "2016-01-04T00:00:00.000Z",
       "title": "home maintenance",
-      "price": 30.3,
+      "price": 30.4,
       "type": "expense"
     },
     {
@@ -16,9 +16,9 @@
     },
     {
       "id": 4,
-      "date": "2016-02-06T01:00:00.000Z",
+      "date": "2016-02-05T01:00:00.000Z",
       "title": "laptop",
-      "price": 700.5,
+      "price": 700.6,
       "type": "expense"
     },
     {
@@ -30,23 +30,16 @@
     },
     {
       "id": 6,
-      "date": "2015-01-29T00:00:00.000Z",
+      "date": "2015-01-28T00:00:00.000Z",
       "title": "payment Jan",
-      "price": 5021,
+      "price": 5022,
       "type": "income"
     },
     {
       "id": 7,
-      "date": "2015-01-29T00:00:00.000Z",
+      "date": "2015-01-28T00:00:00.000Z",
       "title": "overtime",
       "price": 102.3,
-      "type": "income"
-    },
-    {
-      "id": 8,
-      "date": "2016-02-24T22:00:00.000Z",
-      "title": "payment Feb",
-      "price": 5000,
       "type": "income"
     }
   ],
