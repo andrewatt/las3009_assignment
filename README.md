@@ -19,3 +19,9 @@ grunt serve
 4. url
 
 http://localhost:1234/#/
+
+5. log
+
+username: username
+
+password: password
