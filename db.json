@@ -1,52 +1,94 @@
 {
   "transactions": [
     {
-      "id": 2,
-      "date": "2016-01-04T00:00:00.000Z",
-      "title": "home maintenance",
-      "price": 30.4,
-      "type": "expense"
-    },
-    {
       "id": 3,
-      "date": "2016-01-07T01:00:00.000Z",
-      "title": "groceries",
-      "price": 10.5,
+      "date": "2016-01-07T00:00:00.000Z",
+      "title": "groceries for jan",
+      "price": 150,
       "type": "expense"
     },
     {
       "id": 4,
-      "date": "2016-02-05T01:00:00.000Z",
+      "date": "2016-01-09T00:00:00.000Z",
       "title": "laptop",
-      "price": 700.6,
-      "type": "expense"
-    },
-    {
-      "id": 5,
-      "date": "2014-03-11",
-      "title": "mother's gift",
-      "price": 23,
+      "price": 500,
       "type": "expense"
     },
     {
       "id": 6,
-      "date": "2015-01-28T00:00:00.000Z",
-      "title": "payment Jan",
-      "price": 5022,
+      "date": "2016-01-29T00:00:00.000Z",
+      "title": "Payment Jan",
+      "price": 1700,
       "type": "income"
     },
     {
       "id": 7,
-      "date": "2015-01-28T00:00:00.000Z",
-      "title": "overtime",
-      "price": 102.3,
+      "date": "2016-01-28T00:00:00.000Z",
+      "title": "Overtime",
+      "price": 65,
       "type": "income"
+    },
+    {
+      "id": 8,
+      "date": "2016-12-01T22:00:00.000Z",
+      "title": "Bday Gift",
+      "price": 50,
+      "type": "income"
+    },
+    {
+      "id": 9,
+      "date": "2016-02-01T22:00:00.000Z",
+      "title": "groceries feb",
+      "price": 140.2,
+      "type": "expense"
+    },
+    {
+      "id": 10,
+      "date": "2016-01-23T22:00:00.000Z",
+      "title": "melita bill",
+      "price": 40,
+      "type": "expense"
+    },
+    {
+      "id": 11,
+      "date": "2016-01-19T22:00:00.000Z",
+      "title": "petrol",
+      "price": 70,
+      "type": "expense"
+    },
+    {
+      "id": 12,
+      "date": "2016-02-01T22:00:00.000Z",
+      "title": "electricity + water",
+      "price": 50.35,
+      "type": "expense"
+    },
+    {
+      "id": 13,
+      "date": "2016-02-03T22:00:00.000Z",
+      "title": "home maintenance",
+      "price": 112,
+      "type": "expense"
+    },
+    {
+      "id": 14,
+      "date": "2016-02-02T22:00:00.000Z",
+      "title": "car insurance",
+      "price": 500,
+      "type": "expense"
+    },
+    {
+      "id": 15,
+      "date": "2016-02-04T22:00:00.000Z",
+      "title": "Clothing",
+      "price": 60,
+      "type": "expense"
     }
   ],
   "users": [
     {
-      "username": "aaa",
-      "password": "aaa"
+      "username": "username",
+      "password": "password"
     }
   ]
 }

@@ -15,7 +15,6 @@
                     'type': $scope.newTransaction.type
                 };
                 TransactionService.update(transaction)
-                console.log("added");
                 $scope.newTransaction = {};
             };
 
