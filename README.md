@@ -4,7 +4,7 @@ git clone https://github.com/andrewatt/las3009_assignment.git
 
 2. installation
 
-cd ...\las3009_assignment
+cd ..\las3009_assignment
 
 npm install
 
